@@ -24,7 +24,7 @@ spec:
         fsGroupChangePolicy: OnRootMismatch
       containers:
         - name: wazuh-agent
-          image: matteodalgrande/juice-shop-wazuh-agent-included:1.0.4
+          image: ihost-007/wazuh-agent-deployment-included
           imagePullPolicy: IfNotPresent
           env:
             # Override this per cluster if needed
